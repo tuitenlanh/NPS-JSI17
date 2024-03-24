@@ -226,6 +226,13 @@
   .btn:hover>a{
     color: #000;
   }
+#body .plane .box{
+  margin: 100px;
+  background-color: #20232F;
+}
+#body .plane .box .info{
+  margin: 30px;
+}
   #body .blog .conten{
     display: flex;
     justify-content: space-evenly;
