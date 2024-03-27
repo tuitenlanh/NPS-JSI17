@@ -226,10 +226,166 @@
   .btn:hover>a{
     color: #000;
   }
+
 #body .plane .box{
   margin: 100px;
-  background-color: #20232F;
+  padding: 50px;
+  border: 1px solid #575656;
+  border-radius: 30px;
+
 }
+#body .plane .box h2{
+  text-align: center;
+}
+/* #body .plane .box .ticket{
+  padding-top: 30px;
+  
+} */
+#body .plane .box .cb{
+  display: flex;
+}
+#body .plane .box .cb .cb1{
+  margin-left: 20px;
+}
+#body .plane .box .dd {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+#body .plane .box .dd .ni{
+  padding: 0.6rem 6rem;
+  color: #20232F;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+#body .plane .box .dd .nl{
+  position:absolute;
+  top: 0.6rem;
+  left: 5rem;
+  color: #000;
+  font-size: 1.5rem;
+  transition: 0.4s all;
+  padding-inline:0.25rem ;
+}
+#body .plane .box .dd .ni:focus~.nl,#body .plane .box .dd .ni:valid~.nl{
+  top: -0.5rem;
+  left: 5rem;
+  background-color: #fff;
+  font-size: 1rem;
+}
+#body .plane .box .dd .ni1{
+  padding: 0.6rem 6rem;
+  color: #20232F;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+#body .plane .box .dd .nl1{
+  position:absolute;
+  top: 0.6rem;
+  left: 36rem;
+  color: #000;
+  font-size: 1.5rem;
+  transition: 0.4s all;
+  padding-inline:0.25rem ;
+}
+#body .plane .box .dd .ni1:focus~.nl1,#body .plane .box .dd .ni1:valid~.nl1{
+  top: -0.5rem;
+  left: 36rem;
+  background-color: #fff;
+  font-size: 1rem;
+}
+#body .plane .box .sl {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly ;
+
+}
+#body .plane .box .sl .ni{
+  padding: 0.6rem 2rem;
+  color: #20232F;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+#body .plane .box .sl .nl{
+  position:absolute;
+  top: 0.6rem;
+  left: 4rem;
+  color: #000;
+  font-size: 1.5rem;
+  transition: 0.4s all;
+  padding-inline:0.25rem ;
+}
+#body .plane .box .sl .ni:focus~.nl,#body .plane .box .dd .ni:valid~.nl{
+  top: -0.5rem;
+  left: 3rem;
+  background-color: #fff;
+  font-size: 1rem;
+}
+#body .plane .box .sl .ni1{
+  padding: 0.6rem 2rem;
+  color: #20232F;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+#body .plane .box .sl .nl1{
+  position:absolute;
+  top: 0.6rem;
+  left: 25rem;
+  color: #000;
+  font-size: 1.5rem;
+  transition: 0.4s all;
+  padding-inline:0.25rem ;
+}
+#body .plane .box .sl .ni1:focus~.nl1,#body .plane .box .sl .ni1:valid~.nl1{
+  top: -0.5rem;
+  left: 25rem;
+  background-color: #fff;
+  font-size: 1rem;
+}
+#body .plane .box .sl .ni2{
+  padding: 0.6rem 2rem;
+  color: #20232F;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+#body .plane .box .sl .nl2{
+  position:absolute;
+  top: 0.6rem;
+  left: 47rem;
+  color: #000;
+  font-size: 1.5rem;
+  transition: 0.4s all;
+  padding-inline:0.25rem ;
+}
+#body .plane .box .sl .ni2:focus~.nl2,#body .plane .box .sl .ni2:valid~.nl2{
+  top: -0.5rem;
+  left: 47rem;
+  background-color: #fff;
+  font-size: 1rem;
+}
+#body .plane .box .info .btn3{
+  padding: 10px 40px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+.ni:hover,.ni1:hover,.ni2:active{
+      filter: drop-shadow( 0 1px 3px rgb(178, 250, 244));
+
+}
+#body .plane .box .info button a{
+  text-decoration: none;
+}
+#body .plane .box .info .btn3:hover{
+  background-color: aquamarine;
+  filter: drop-shadow( 0 1px 3px rgb(178, 250, 244));
+
+}
+
 #body .plane .box .info{
   margin: 30px;
 }
