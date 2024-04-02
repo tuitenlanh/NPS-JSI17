@@ -110,11 +110,12 @@
   #header .list .tab:hover::after {
     width: 50%;
   }
-  #header .banner {
+  /* #header .banner {
     position: relative;
     height: 500px;
 
-}
+} */
+
 .btn2 {
   --bg: #000;
   --hover-bg: rgb(252, 6, 38);
